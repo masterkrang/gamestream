@@ -6,7 +6,7 @@ import { EoswsClient, createEoswsSocket, InboundMessageType } from "@dfuse/eosws
 //import WebSocket from 'ws';
 
 const endpoint = "mainnet.eos.dfuse.io"
-const token = "eyJhbGciOiJLTVNFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NTYxNjM2MDIsImp0aSI6IjhlN2ZhNGVlLTc4ZjktNGM0MS05ZGM0LTA5YWVhOGI5MTY5NSIsImlhdCI6MTU1MzU3MTYwMiwiaXNzIjoiZGZ1c2UuaW8iLCJzdWIiOiJDaVFBNmNieWU5MVMvYVBvRkJzSlREQTdXZkIvYU82SE84MXRGS1BKVU1zSnR1Wm9hV29TUFFBL0NMUnRmcG1XWVZFVFV1d3Z1aHltQTI5ZEVMbzNnVTFqZ0srcEgxTHNlOUE3MmQ4Z3ZYYnZBVnZhd09qdTYyV0hzM1BJMm1wWHA2WVlTRTg9IiwidGllciI6ImJldGEtdjEiLCJ2IjoxfQ.dH1T06AAeghCoMutlIeyADm1LFhLcYVNi4HpFndbohJwdXYYmar3hee-1VgWDlY9J4uFbabmZylgI2aUhM6L8Q";
+const token = "yourkey";
 
 const client = new EoswsClient(
   createEoswsSocket(() =>
